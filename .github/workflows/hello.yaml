@@ -5,6 +5,7 @@ jobs:
   greet:
     runs-on: ubuntu-24.04
     steps:
-      - name: Say Hello
-        run: echo "Hello github actions"
+      - run: echo "Hello github actions"
+      - run: echo "I'll list"
+      - run: ls -al
         
